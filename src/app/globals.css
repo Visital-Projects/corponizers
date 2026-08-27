@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --color-corponizers-blue: #396EEF;
+  --color-brand-blue-dark: #2A56C4;
+  --color-accent-crimson: #dc2626;
+}
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #0f172a;
+    
+    /* Official Corponizers Brand Color System */
+    --color-corponizers-blue: #396EEF;
+    --brand-blue-dark: #2A56C4;
+    --brand-blue-light: #eff4ff;
+    
+    /* Logo Tie Crimson Accent */
+    --accent-crimson: #dc2626;
+    --accent-crimson-dark: #b91c1c;
+    --accent-crimson-light: #fef2f2;
+    
+    /* Enterprise Surfaces */
+    --slate-surface: #f8fafc;
+    --slate-soft-bg: #f1f5f9;
+    --slate-border: #e2e8f0;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: #0f172a;
+    font-family: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Corponizers Enterprise Utilities */
+.brand-glass-panel {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.brand-gradient-text {
+  background: linear-gradient(135deg, #0f172a 30%, #396EEF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brand-hero-bg {
+  background: radial-gradient(circle at 50% 0%, rgba(57, 110, 239, 0.08) 0%, rgba(255, 255, 255, 1) 70%);
+}
+
+.brand-cta-bg {
+  background: linear-gradient(135deg, #396EEF 0%, #2A56C4 100%);
+}
+
+.shadow-brand {
+  box-shadow: 0 12px 32px -8px rgba(57, 110, 239, 0.12);
+}
+
+.shadow-brand-hover {
+  box-shadow: 0 20px 40px -10px rgba(57, 110, 239, 0.22);
+}

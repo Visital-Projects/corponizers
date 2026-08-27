@@ -1,0 +1,70 @@
+{
+  "home": {
+    "hero": true,
+    "strategy": true,
+    "practice-solutions": true,
+    "cta": true
+  },
+  "about": {
+    "hero": true,
+    "story": true,
+    "mission": true
+  },
+  "solutions": {
+    "executive-search": true,
+    "permanent-hiring": true,
+    "contract-staffing": true,
+    "campus-hiring": true,
+    "technology-hiring": true,
+    "rpo": true,
+    "global-mobility": true,
+    "recruitment-consulting": true
+  },
+  "industries": {
+    "finance": true,
+    "healthcare": true,
+    "steel": true,
+    "mining": true,
+    "manufacturing": true,
+    "retail": true,
+    "logistics": true,
+    "energy": true,
+    "it": true,
+    "education": true
+  },
+  "careers": {
+    "hero": true,
+    "interview": true,
+    "consultation": true,
+    "offer": true,
+    "cta": true
+  },
+  "insights": {
+    "hero": true,
+    "research": true,
+    "thought-leadership": true,
+    "article-cta": true
+  },
+  "contact": {
+    "hero": true,
+    "reception": true,
+    "meeting": true,
+    "candidate-desk": false,
+    "cta": false
+  },
+  "shared": {
+    "board-meeting": false,
+    "team-collaboration": false,
+    "conference-room": false,
+    "office-reception": false,
+    "business-consultation": false,
+    "leadership-presentation": false,
+    "recruitment-discussion": false,
+    "employer-workshop": false,
+    "hr-strategy": false,
+    "candidate-assessment": false,
+    "offer-acceptance": false,
+    "business-networking": false,
+    "collaboration-space": false
+  }
+}
